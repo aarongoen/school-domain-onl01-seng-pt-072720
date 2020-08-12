@@ -18,9 +18,9 @@ attr_reader :school, :roster, :grade, :student
     end 
   end 
   
-  # def grade(grade)
-  #   @roster[grade]
-  # end 
+  def grade(grade)
+    @roster[grade]
+  end 
   
   # def sort
   #   @roster.each do |grade, student|
