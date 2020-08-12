@@ -23,10 +23,11 @@ attr_reader :school, :roster, :grade, :student
   end 
   
   def sort
-    @roster.map {|grade, student|
+    @roster.map do |grade, student|
     grade.sort 
-    grade.map {|grade, student|
-    student.sort}
+    grade.map do|grade, student|
+    student.sort
+    puts "#{grade}: #{student}"
     end
   end 
 
