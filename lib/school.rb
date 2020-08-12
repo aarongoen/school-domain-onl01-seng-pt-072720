@@ -27,5 +27,4 @@ def initialize(school)
   def sort(student, grade)
     @roster[grade].sort 
   end 
-  end 
 end 
