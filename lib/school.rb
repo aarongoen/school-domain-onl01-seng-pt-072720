@@ -17,7 +17,6 @@ def initialize(school)
       @roster[grade] << student 
     else @roster[grade] = [student]
     end 
-    @roster[grade]
   end 
   
   def grade(grade)
