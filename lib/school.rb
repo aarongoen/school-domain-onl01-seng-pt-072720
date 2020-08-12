@@ -23,7 +23,7 @@ attr_reader :school, :roster
   end 
   
   def sort
-    roster.each {|grade, names| names.sort}
+    roster.each {|grade, names| names.sort!}
   end 
     
   # def sort
