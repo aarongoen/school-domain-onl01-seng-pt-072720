@@ -1,18 +1,29 @@
 code here!
 class School
-  attr_reader :school 
-  attr_accessor :roster, :grade, :name 
-  
-  initialize school=(school)
+   def initialize school=(school)
     @school = school 
+    @roster = {}
+  end 
+ 
+  def roster
+    @roster
   end 
 
-  roster = {}
+attr_reader :school 
+attr_accessor :roster, :grade, :name 
   
-  def add_student(grade, name)
+  def add_student(grade, student)
+    if @roster.include?(grade) == FALSE 
+      @roster[grade] = []
+      @roster[grade] << student 
+    else 
+       @roster[grade] = []
+    end 
+    
+  def add_student(grade, student)
     add_student["grade"] = []
-    add_student["grade"] << "name" 
-    add_student => {"grade"=>["name"]}
+    add_student["grade"] << "student" 
+    add_student => {"grade"=>["student"]}
     
     student_names = add_student[:grade_level]
     add_student[grade] = []
