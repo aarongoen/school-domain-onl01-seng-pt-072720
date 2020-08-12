@@ -7,7 +7,6 @@ def initialize(school)
     @roster = {}
   end 
  
-
   def roster
     @roster
   end 
@@ -19,11 +18,11 @@ def initialize(school)
     end 
   end 
   
-  def grade(grade)
-    @roster[grade]
-  end 
+#   def grade(grade)
+#     @roster[grade]
+#   end 
   
-  def sort(grade)
-    @roster[grade].sort 
-  end 
-end 
+#   def sort(grade)
+#     @roster[grade].sort 
+#   end 
+# end 
