@@ -24,7 +24,7 @@ def initialize(school)
     @roster[:grade]
   end 
   
-  def sort(student, grade)
+  def sort(grade)
     @roster[grade].sort 
   end 
 end 
