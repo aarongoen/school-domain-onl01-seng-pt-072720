@@ -12,21 +12,15 @@ class School
   def add_student(grade, student)
     if @roster.include?(grade) == FALSE 
       @roster[grade] = []
-      @roster[grade] << student 
-    else 
-       @roster[grade] = []
+    else @roster[grade] << student 
     end 
-    
-  def add_student(grade, student)
-    add_student["grade"] = []
-    add_student["grade"] << "student" 
-    add_student => {"grade"=>["student"]}
-    
-    student_names = add_student[:grade_level]
-    add_student[grade] = []
-    add_student[grade] = ["new_value_for_value_array"]
-    add_student => {add_student=>["new_value_for_value_array"]}
   end 
+    
+  #   student_names = add_student[:grade_level]
+  #   add_student[grade] = []
+  #   add_student[grade] = ["new_value_for_value_array"]
+  #   add_student => {add_student=>["new_value_for_value_array"]}
+  # end 
   
   def grade(grade)
     add_student[grade]=>name 
