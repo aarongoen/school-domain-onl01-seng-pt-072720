@@ -24,10 +24,10 @@ attr_reader :school, :roster, :grade, :student
   
   def sort
     sorted_students = []
-    @roster.each {|grade, student|
-    sorted_students << #{student}} 
+    @roster.map {|grade, student|
+    sorted_students << #{student}
     end
-    sorted_students
+    sorted_students.sort
   end 
 
   # def sort
