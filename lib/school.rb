@@ -22,13 +22,13 @@ attr_reader :school, :roster
     @roster[grade]
   end 
   
-  def sort
-    @roster[grade][student].sort
-  end 
-
   # def sort
-  #   roster.each {|grade, names| names.sort!}
+  #   @roster[grade][student].sort
   # end 
+
+  def sort
+    roster.each {|grade, names| names.sort!}
+  end 
   
   end 
 
