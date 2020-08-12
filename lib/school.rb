@@ -1,4 +1,4 @@
-code here!
+# code here!
 class School
    def initialize School=(school)
     @school = school 
