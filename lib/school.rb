@@ -21,7 +21,7 @@ def initialize(school)
   end 
   
   def grade(grade)
-    @roster[:grade]
+    @roster[grade]
   end 
   
   def sort(grade)
