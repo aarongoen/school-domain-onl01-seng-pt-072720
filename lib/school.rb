@@ -12,7 +12,7 @@
   def add_student(grade, name)
     add_student[grade] = []
     add_student[grade] << "name" 
-    add_student => {grade=>["name"]}
+    # add_student => {grade=>["name"]}
     
     # student_names = add_student[:grade_level]
     # add_student[grade] = []
