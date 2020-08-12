@@ -5,7 +5,6 @@ attr_reader :school_name, :roster
 def initialize(school)
     @school = school
     @roster = {}
-
   end 
  
 
@@ -18,6 +17,7 @@ def initialize(school)
       @roster[grade] = []
     else @roster[grade] << student 
     end 
+    @roster[grade]
   end 
     
   #   student_names = add_student[:grade_level]
