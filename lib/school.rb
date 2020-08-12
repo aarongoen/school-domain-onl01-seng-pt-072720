@@ -8,9 +8,6 @@ class School
   def roster
     @roster
   end 
-
-attr_reader :school 
-attr_accessor :roster, :grade, :name 
   
   def add_student(grade, student)
     if @roster.include?(grade) == FALSE 
