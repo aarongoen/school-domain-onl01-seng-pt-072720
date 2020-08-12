@@ -2,7 +2,7 @@
 class School
 attr_reader :school, :roster
 
-def initialize(school)
+  def initialize(school)
     @school = school
     @roster = {}
   end 
@@ -11,7 +11,7 @@ def initialize(school)
     @roster
   end 
   
-  def add_student(grade, student)
+  def add_student(student, grade)
     if @roster.has_key?(grade)
       @roster[grade] << student 
     else @roster[grade] = [student]
