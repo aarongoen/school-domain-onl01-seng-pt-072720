@@ -12,9 +12,10 @@ class School
   
   def add_student(grade, name)
     add_student[name] = []
-    add_student[name] = "new_value_for_value_array" 
+    add_student[name] = "new_name" 
     add_student => {add_student=>["new_value_for_value_array"]}
     
+    student_names = add_student[:grade_level]
     add_student[grade] = []
     add_student[grade] = ["new_value_for_value_array"]
     add_student => {add_student=>["new_value_for_value_array"]}
