@@ -23,6 +23,6 @@ attr_reader :school, :roster
   end 
   
   def sort(student)
-    @roster[student].sort 
+    @school[student].sort 
   end 
 end 
