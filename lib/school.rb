@@ -24,7 +24,7 @@ attr_reader :school, :roster, :grade, :student
   
   def sort
     @roster.map do |grade, students|
-    grade[students].sort 
+    grade.sort 
     end
   end 
 
