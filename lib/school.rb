@@ -12,7 +12,7 @@ def initialize(school)
     @roster
   end 
   
-  def add_student(grade, student)
+  def add_student(student, grade)
     if @roster.include?(grade) == FALSE 
       @roster[grade] = []
     else @roster[grade] << student 
