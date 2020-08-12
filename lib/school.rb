@@ -24,15 +24,16 @@ attr_reader :school, :roster, :grade, :student
   
   def sort
     @roster.each do |grade, student|
+    grade.sort
     grade.map do|grade, student|
     student.sort
     puts #{student}"
     end
   end 
-end
-end
+
   # def sort
   #   roster.each {|grade, names| names.sort}
   # end 
   
-# end 
+ end 
+
