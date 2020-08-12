@@ -23,7 +23,7 @@ class School
   # end 
   
   def grade(grade)
-    add_student[grade]=>name 
+    @roster[:grade]
   end 
   
   def sort 
