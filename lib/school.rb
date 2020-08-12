@@ -4,9 +4,10 @@ attr_reader :school_name, :roster
 
 def initialize(school)
     @school = school
+    @roster = {}
+
   end 
  
-  @roster = {}
 
   def roster
     @roster
