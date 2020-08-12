@@ -27,7 +27,7 @@ attr_reader :school, :roster, :grade, :student
     grade.sort 
     grade.map do|grade, student|
     student.sort
-    puts "#{grade}: #{student}"
+    puts #{student}"
     end
   end 
 
