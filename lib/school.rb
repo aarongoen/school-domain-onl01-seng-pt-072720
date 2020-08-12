@@ -25,8 +25,7 @@ def initialize(school)
   end 
   
   def sort(student, grade)
-    @roster[grade].map do |grade, name|
-      #{grade} #{name}
-    end 
+    @roster[grade].sort 
+  end 
   end 
 end 
