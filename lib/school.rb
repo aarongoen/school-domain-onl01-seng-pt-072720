@@ -28,8 +28,8 @@ attr_reader :school, :roster, :grade, :student
   #   end
   # end 
 
-  def sort
-    roster.each {|grade, names| names.sort!}
-  end 
+  # def sort
+  #   roster.each {|grade, names| names.sort!}
+  # end 
   
 end 
